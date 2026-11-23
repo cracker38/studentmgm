@@ -1,0 +1,158 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About | DevOps Platform</title>
+
+    <style>
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+
+        body {
+            font-family: Arial, sans-serif;
+            background: #080d1c;
+            color: #f8fafc;
+            min-height: 100vh;
+        }
+
+        nav {
+            padding: 25px 8%;
+            border-bottom: 1px solid #263650;
+        }
+
+        nav a {
+            color: #60a5fa;
+            text-decoration: none;
+            margin-right: 20px;
+        }
+
+        .container {
+            max-width: 950px;
+            margin: 80px auto;
+            padding: 20px;
+        }
+
+        .badge {
+            color: #93c5fd;
+            background: #172554;
+            display: inline-block;
+            padding: 8px 15px;
+            border-radius: 30px;
+            margin-bottom: 20px;
+        }
+
+        h1 {
+            font-size: clamp(35px, 5vw, 55px);
+            margin-bottom: 20px;
+        }
+
+        h1 span { color: #60a5fa; }
+
+        .intro {
+            color: #94a3b8;
+            font-size: 17px;
+            line-height: 1.8;
+            margin-bottom: 40px;
+        }
+
+        .panel {
+            background: #111c32;
+            border: 1px solid #263650;
+            padding: 30px;
+            border-radius: 15px;
+            margin-bottom: 25px;
+        }
+
+        .panel h2 {
+            margin-bottom: 15px;
+            color: #60a5fa;
+        }
+
+        .panel p {
+            color: #cbd5e1;
+            line-height: 1.8;
+        }
+
+        .tech {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 12px;
+            margin-top: 20px;
+        }
+
+        .tech span {
+            background: #1e293b;
+            border: 1px solid #334155;
+            padding: 10px 16px;
+            border-radius: 8px;
+            font-size: 14px;
+        }
+
+        .back {
+            display: inline-block;
+            margin-top: 20px;
+            color: #60a5fa;
+            text-decoration: none;
+        }
+
+        footer {
+            text-align: center;
+            padding: 30px;
+            color: #64748b;
+        }
+    </style>
+</head>
+<body>
+
+<nav>
+    <a href="index.html">← Home</a>
+    <a href="contact.html">Contact</a>
+</nav>
+
+<div class="container">
+
+    <div class="badge">ABOUT OUR PROJECT</div>
+
+    <h1>Welcome to <span>DevOps.</span></h1>
+
+    <p class="intro">
+        We demonstrate how modern software development,
+        automation and infrastructure management work together
+        to deliver reliable applications.
+    </p>
+
+    <div class="panel">
+        <h2>Our Mission</h2>
+        <p>
+            Our mission is to demonstrate the DevOps lifecycle
+            by combining development, continuous integration,
+            containerization and orchestration technologies.
+        </p>
+    </div>
+
+    <div class="panel">
+        <h2>Technologies We Use</h2>
+        <p>Our platform demonstrates the following technologies:</p>
+
+        <div class="tech">
+            <span>Git</span>
+            <span>GitHub</span>
+            <span>Jenkins</span>
+            <span>Docker</span>
+            <span>Kubernetes</span>
+            <span>HTML5</span>
+            <span>CSS3</span>
+        </div>
+    </div>
+
+    <a href="index.html" class="back">← Back to Homepage</a>
+
+</div>
+
+<footer>
+    © 2026 DevOps Application
+</footer>
+
+</body>
+</html>
